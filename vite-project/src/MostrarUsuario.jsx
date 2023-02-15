@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Crud from "./crud";
+import Crud from "./Crud";
 
 
 function MostrarUsuario(){
