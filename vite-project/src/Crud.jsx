@@ -33,15 +33,15 @@ function Crud() {
         
       </form>
       <div>
-        <h1>Lista de datos</h1>
-        <ul>
+        <h3>Lista de usuarios</h3>
+        
         { 
          estado.map(user => (
-          <li key={user.nombre}> {user.nombre +" "+ user.apellido} </li>
+          <h3 key={user.nombre}> {user.nombre +" "+ user.apellido} </h3>
          ))
           
         }
-        </ul>
+        
       </div>
       </Fragment>
       
